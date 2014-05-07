@@ -2,7 +2,7 @@
 
 This document describes the OpenVario serial port protocol.
 
-**Version: 1.1-dev**
+**Version: 1.1**
 
 ## Specification
 
