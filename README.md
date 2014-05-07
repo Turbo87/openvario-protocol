@@ -18,6 +18,11 @@ The list of datapoints should be terminated with the usual asterisk and two char
 
 The following section describes all datapoints supported by the current version of the OpenVario protocol.
 
+### Airspeed
+
+* `S`: true airspeed in `km/h`  
+  Example: `$POV,S,123.45*05`
+
 ### Pressure
 
 * `P`: static pressure in `hPa`  
@@ -28,11 +33,6 @@ The following section describes all datapoints supported by the current version 
 
 * `R`: total pressure in `hPa`  
   Example: `$POV,R,1025.17*35`
-
-### Airspeed
-
-* `S`: true airspeed in `km/h`  
-  Example: `$POV,S,123.45*05`
 
 ### Temperature
 
