@@ -20,14 +20,21 @@ The following section describes all datapoints supported by the current version 
 
 ### Pressure
 
-* `P`: static pressure in `hPa`
-* `Q`: dynamic pressure in `Pa`
-* `R`: total pressure in `hPa`
+* `P`: static pressure in `hPa`  
+  Example: `$POV,P,1018.35*39`
+
+* `Q`: dynamic pressure in `Pa`  
+  Example: `$POV,Q,23.3*04`
+
+* `R`: total pressure in `hPa`  
+  Example: `$POV,R,1025.17*35`
 
 ### Airspeed
 
-* `S`: true airspeed in `km/h`
+* `S`: true airspeed in `km/h`  
+  Example: `$POV,S,123.45*05`
 
 ### Temperature
 
-* `T`: temperature in °C
+* `T`: temperature in °C  
+  Example: `$POV,T,23.52*35`
