@@ -2,7 +2,7 @@
 
 This document describes the OpenVario serial port protocol.
 
-**Version: 1.0**
+**Version: 1.1-dev**
 
 ## Specification
 
@@ -38,3 +38,8 @@ The following section describes all datapoints supported by the current version 
 
 * `T`: temperature in °C  
   Example: `$POV,T,23.52*35`
+
+### Vario
+
+* `E`: TE vario in m/s  
+  Example: `$POV,E,2.15*14`
