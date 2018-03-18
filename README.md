@@ -2,7 +2,7 @@
 
 This document describes the OpenVario serial port protocol.
 
-**Version: 1.1**
+**Version: 1.2-dev**
 
 ## Specification
 
@@ -22,6 +22,10 @@ The following section describes all datapoints supported by the current version 
 
 * `S`: true airspeed in `km/h`  
   Example: `$POV,S,123.45*05`
+
+### Humidity
+* `H`: relative humidity in percent
+  Example: `$POV,H,58.42*24`
 
 ### Pressure
 
